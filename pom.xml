@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.koseksi</groupId>
-  <artifactId>SevletsProject2</artifactId>
+  <artifactId>SendMailThroughJava</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
-  <name>initialdevelopemt Maven Webapp</name>
+  <name>SendMailThroughJava Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -14,8 +14,14 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    	<dependency>
+		<groupId>com.sun.mail</groupId>
+		<artifactId>javax.mail</artifactId>
+		<version>1.6.2</version>
+	</dependency>
+    <!--  -->
   </dependencies>
   <build>
-    <finalName>testProj-initialdevelopemt</finalName>
+    <finalName>SendMailThroughJava</finalName>
   </build>
 </project>
