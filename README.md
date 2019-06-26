@@ -1,2 +1,0 @@
-# SevletsProject
-intially development started
